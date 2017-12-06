@@ -41,7 +41,7 @@ export default (props) => {
   const size = props.size || defaultSize
   const src = getGuide(size)
   return (<div style={wrapperStyle}>
-    <img src={src} style={guideStyle} ariaHidden='true' />
+    <img src={src} style={guideStyle} aria-hidden='true' />
     <div style={childrenStyle} {...props} />
   </div>)
 }
