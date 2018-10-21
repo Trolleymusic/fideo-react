@@ -1,6 +1,6 @@
 {
   "name": "fideo-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Video embed container for different aspect-ratios",
   "main": "lib/index.js",
   "repository": {
